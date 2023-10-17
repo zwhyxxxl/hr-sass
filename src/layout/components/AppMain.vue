@@ -11,6 +11,8 @@ export default {
   name: 'AppMain',
   computed: {
     key() {
+      // console.log(this.$route)
+      // console.log(this.$router)
       return this.$route.path
     }
   }
